@@ -16,5 +16,31 @@ namespace Assignment3_Gurvir
         {
             oxygen = _oxygen;
         }
+
+        //public methods
+        //IHabitable() and IHasMoons interfaces implemented
+        public bool Habitable()
+        {
+            if (_oxygen == true)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool HasMoons()
+        {
+            if (MoonCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

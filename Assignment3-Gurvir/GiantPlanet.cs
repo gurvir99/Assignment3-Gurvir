@@ -16,5 +16,22 @@ namespace Assignment3_Gurvir
             type = _type;
         }
 
+        //public methods
+        // IHasMoons() and IHasRings interfaces implemented
+        public bool HasMoons()
+        {
+            if (MoonCount > 0)
+            { return true; }
+            else
+            { return false; }
+        }
+
+        public bool HasRings()
+        {
+            if (RingCount > 0)
+            { return true; }
+            else
+            { return false; }
+        }
     }
 }
