@@ -102,9 +102,9 @@ namespace Assignment3_Gurvir
         public override string ToString()
         {
             string output = "";
-            output += $"Name:     {Name}       \n";
-            output += $"Mass:     {Mass}       \n";
-            output += $"Diameter: {Diameter}   \n";
+            output += $"Name:     {Name}                     \n";
+            output += $"Mass:     {Mass}     Kg \n";
+            output += $"Diameter: {Diameter}        Km \n";
             return output;
 
         }

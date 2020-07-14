@@ -13,7 +13,7 @@ namespace Assignment3_Gurvir
         //constructor:
         public GiantPlanet(string name, double diameter, double mass, string type) : base(name, diameter, mass)
         {
-            type = _type;
+            _type = type;
         }
 
         //public methods
@@ -32,6 +32,20 @@ namespace Assignment3_Gurvir
             { return true; }
             else
             { return false; }
+        }
+
+        //This method overrides the inherited ToString() method
+        public override string ToString()
+        {
+            string output = "";
+            output += $"Name:      {Name}                     \n";
+            output += $"Mass:      {Mass}     Kg \n";
+            output += $"Diameter:  {Diameter}        Km \n";
+            output += $"Type:      {_type}       \n";
+            output += $"Has Moons: {HasMoons()}            \n";
+            output += $"Has Rings: {HasRings()}            \n";
+            return output;
+
         }
     }
 }
