@@ -4,7 +4,14 @@ using System.Text;
 
 namespace Assignment3_Gurvir
 {
-    // Planet is an abstract class named Planet
+    //STUDENT NAME: Gurvir Singh
+    //STUDENT ID: #301108852
+    //COURSE NAME: Programming 2 SEC.001
+    //COURSE CODE: COMP-123
+    //ASSIGNMENT 3
+    //DATE LAST MODIFIED: 2020-07-20
+
+    // Planet is an abstract class 
     abstract class Planet
     {
         //fields (private instance variables):
